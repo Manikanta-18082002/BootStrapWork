@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\DEBUG\\CSS Syntax 36\\CSS - Bacon Fansite"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Web-Development"
+    }
+}

@@ -1,0 +1,209 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    color: #000000;
+    font-size: 20px;
+}
+
+
+/* Headings */
+
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Containers */
+
+.container-fluid {
+    padding: 4% 15% 3%;
+}
+
+
+/* Sections */
+
+.colored-section {
+    background-color: #3e59f3;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+
+/* Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+    font-size: 1.5em;
+}
+
+
+/* Title Section */
+
+#title {
+    background-color: #3e59f3;
+    color: #fff;
+    text-align: left;
+    padding-bottom: 4.4%;
+}
+
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(-25deg);
+    position: absolute;
+    right: 10%;
+    /* z-index: -1; (Will behind the Visibility) */
+}
+
+
+/* with space parent child hierarchical selectors read right to left */
+
+
+/* no space read left to right with no hierarchy and no parent/child relationship */
+
+#title .container-fluid {
+    padding: 3% 14% 7%;
+}
+
+
+/* Features Section */
+
+#features {
+    position: relative;
+    background-color: #fff;
+    /* z-index: 1;  (If Z Index >0 will sit top of the other)*/
+}
+
+.feature-title {
+    font-size: 2.5rem;
+}
+
+.feature-box {
+    padding: 10%;
+}
+
+.icon {
+    color: #e73841;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #0010f0;
+}
+
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #6750bb;
+    text-align: center;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #6750bb;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+.social-icon {
+    margin: 30px 40px;
+    font-size: 25px;
+}
+
+
+/* @media <type> <feature> */
+
+@media only screen and (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
